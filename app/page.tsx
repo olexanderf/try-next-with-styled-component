@@ -1,95 +1,25 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+import { HomeParagraph, MainPageTitle, TheContainer } from './components/TheMainStyles.styled';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+    <main>
+      <TheContainer>
+        <MainPageTitle>Home Title</MainPageTitle>
+        <HomeParagraph>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae facilis dolores, earum voluptates
+          exercitationem harum voluptas hic quae dolore esse quos illum rerum quam aspernatur voluptatibus suscipit
+          magni iusto, quaerat at perferendis dicta molestiae non laudantium. In alias tenetur sint quasi officia
+          perspiciatis. Velit rerum molestias provident, officiis in expedita. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae aliquam ipsa commodi repudiandae nisi, officiis eligendi aut laboriosam id magnam ut,
+          sint reprehenderit autem harum deserunt, veritatis nobis ab ea dolor. Qui tempore minus iusto enim, nihil
+          incidunt quaerat facere laborum aliquid porro esse dolor repudiandae architecto sequi perferendis ullam odio
+          placeat culpa earum quos eum neque saepe dignissimos commodi. Alias saepe optio ea eaque repellat quidem dolor
+          consequuntur nam quis libero, in, labore ab accusantium delectus doloribus aliquam perspiciatis fugiat quam
+          totam nostrum minima, est possimus tempore? Qui quae labore animi, vel quia aliquid quasi aliquam nisi amet
+          vitae.
+        </HomeParagraph>
+      </TheContainer>
     </main>
-  )
+  );
 }
