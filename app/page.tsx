@@ -1,4 +1,3 @@
-'use client'
 import { HomeParagraph, MainPageTitle, TheContainer } from './components/TheMainStyles.styled';
 
 export default function Home() {
