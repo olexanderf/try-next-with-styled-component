@@ -20,7 +20,7 @@ export default function TodoPage() {
 
   useEffect(() => {
     getTodoData();
-  }, []);
+  }, []); 
 
   return (
     <TheContainer>
